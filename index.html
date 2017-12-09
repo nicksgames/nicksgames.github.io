@@ -1,149 +1,163 @@
 <!DOCTYPE html>
-<!-- saved from url=(0088)file:///Users/nicholasvoneper/Desktop/HTML5%20Games%20-%20Play%20for%20free%20online.htm -->
-<html lang="en" style="height: 100%;">
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Nick's Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Games,Html,Nick,School,Unblocked" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<link rel="icon" type="image/png"
+     href="images/ICON/LOGO.png" />
 
-	<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
-	<title>HTML5 Games - Play for free online</title>
-	<link href="./HTML5 Games - Play for free online_files/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link rel="alternate" hreflang="de" href="http://de.html5games.com/Alle-Spiele">
-	<link rel="alternate" hreflang="tr" href="http://tr.html5games.com/Tum-Oyunlar">
-	<meta name="description" content="Play the best HTML5 games for free. HTML5games.com offers worlds first affiliate program for publishers.">
-	<meta name="keywords" content="html5,html5 games,online,free,canvas,affiliate,play">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="HTML5games.com">
-	<meta property="og:description" content="Games for your website - powered by HTML5">
-	<meta property="og:url" content="http://html5games.com/">
-	<meta property="og:site_name" content="HTML5games.com">
-	<meta property="og:image" content="http://img.cdn.famobi.com/portal/html5games/images/html5games_logo.png?v=0.2-89f4d226">
-
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-
-	<link type="text/css" rel="stylesheet" charset="UTF-8" href="./HTML5 Games - Play for free online_files/translateelement.css">
-	<script type="text/javascript" charset="UTF-8" src="./HTML5 Games - Play for free online_files/main.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="./HTML5 Games - Play for free online_files/element_main.js" gapi_processed="true"></script>
 </head>
+<body>
+<!-- Header -->
+	<div class="header">
+		<!-- Navbar -->
+		<nav class="navbar navbar-default">
+			<div class="container">
 
-<body style="position: relative; min-height: 100%; top: 0px;">
-	<noscript>&amp;amp;lt;iframe src="http://www.googletagmanager.com/ns.html?id=GTM-PBT7JT"
-height="0" width="0" style="display:none;visibility:hidden"&amp;amp;gt;&amp;amp;lt;/iframe&amp;amp;gt;</noscript>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a  href="index.html"><h1>Nick's     <img src="images/c1.png" alt=" " /> Games</h1></a>
+				</div>
 
-	<div class="app-container">
-		<div id="app" class="show-offcanvas-nav">
-			<div class="main-section">
-				<header class="main">
-					<a href="javascript:appInst.navigation.toggle()" class="open-nav-btn">
-				<span class="bar"></span>
-			</a>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hover-effect"><a href="index.html">Home</a></li>
+						<li class="hover-effect"><a href="games.html">Games</a></li>
+					</ul>
+				</div>
 
+			</div>
+		</nav>
+		<!-- //Navbar -->
 
-					<a href="file:///Users/nicholasvoneper/Desktop/html5games.com/index.html" class="logo">
-				<img src="./HTML5 Games - Play for free online_files/html5games_logo.png" title="Home" alt="HTML5 Games for your Website">
-			</a>
-				</header>
-				<nav id="navmain" class="main">
-			<ul>
+		<!-- Slider -->
+		<div class="slider">
+			<ul class="rslides" id="slider">
 				<li>
-					<a href="index.html"><i class="icon-home"></i>Home</a>
+						<img src="images/banner3.jpg" alt="" />
 				</li>
 				<li>
-			<a href="cuttherope.html"><i class="icon-category-best"></i>Cut The Rope</a>
-		</li>
+					<img src="images/banner2.jpg" alt="" />
+				</li>
+			</ul>
+		</div>
+		<!-- //Slider -->
 
-					<ul class="tile-list">
-						<li>
+	</div>
+	<!-- Banner-Slider-JavaScript -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 800,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<!-- //Banner-Slider-JavaScript -->
+	<!-- //Header -->
 
-						</li>
-						<li>
 
-						</li>
-						<li>
 
-						</li>
-					</ul>
-				</nav>
-				<div class="content">
-					<h1>All Games</h1>
-
-					<ul class="games">
-						<li>
-							<a href="http://cdn.gamepix.com/livegames/40071/index.html?token=ae1fd428273b763d4e28f50f0eb1ae6a&amp;gpx_country_code=US&amp;utm_source=www.gamepix.com&amp;referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope%2F&amp;noplaypage=true">
-								<div class="icon">
-									<div class="clamp"></div>
-									<img src="./HTML5 Games - Play for free online_files/CTROriginal-small_title.png" alt="Nina - Airlines">
-								</div>
-								<div class="name-container">
-									<div class="name">Cut The Rope</div>
-								</div>
-								<div class="btn-highlight btn-block">Play</div>
-							</a>
-						</li>
-						<li>
-							<a href="http://cdn.gamepix.com/livegames/40214/index.html?token=343350e8f573cbe7c083003d7cc37609&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-2-html5%2F&noplaypage=true">
-								<div class="icon">
-									<div class="clamp"></div>
-									<img src="http://www.gamepix.com/wp-content/uploads/2014/11/CTR2-small_title.png" alt="Nina - Airlines">
-								</div>
-								<div class="name-container">
-									<div class="name">Cut The Rope 2</div>
-								</div>
-								<div class="btn-highlight btn-block">Play</div>
-							</a>
-						</li>
-						<li>
-							<a href="http://cdn.gamepix.com/livegames/40072/index.html?token=031c3a430c43bf5b5eb5df27c94b17b4&sid=30057&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-time-travel%2F&noplaypage=true">
-								<div class="icon">
-									<div class="clamp"></div>
-									<img src="http://www.gamepix.com/wp-content/uploads/2014/11/CTRTimeTravel-small_title.png" alt="Nina - Airlines">
-								</div>
-								<div class="name-container">
-									<div class="name">Cut The Rope Time Travel</div>
-								</div>
-								<div class="btn-highlight btn-block">Play</div>
-							</a>
-						</li>
-						<li>
-							<a href="http://cdn.gamepix.com/livegames/40337/index.html?token=9d82a7ff2ae779aa399f722ca4437d63&sid=30057&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-experiments%2F&noplaypage=true">
-								<div class="icon">
-									<div class="clamp"></div>
-									<img src="http://www.gamepix.com/wp-content/uploads/2014/11/CTRExperiments-small_title.png" alt="Nina - Airlines">
-								</div>
-								<div class="name-container">
-									<div class="name">Cut The Rope Experiments</div>
-								</div>
-								<div class="btn-highlight btn-block">Play</div>
-							</a>
-						</li>
-					</ul>
-				</div>
+<!-- new games -->
+<div class="new-w3-agile">
+	<div class="container">
+		<h3>Popular Games</h3>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/CutTheRope.png" alt=" " />
+			<div class="mask">
+				<a href="http://cdn.gamepix.com/livegames/40071/index.html?token=ae1fd428273b763d4e28f50f0eb1ae6a&amp;gpx_country_code=US&amp;utm_source=www.gamepix.com&amp;referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope%2F&amp;noplaypage=true"><h4>Play</h4></a>
+				<p>Cut The Rope</p>
 			</div>
-			<footer class="main">
-				<div class="footer-content">
-					<aside>
-						<div class="copyright">
-							©2014-2017 HTML5games.com
-						</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/CutTheRope2.jpg" alt=" " />
+			<div class="mask">
+				<a href="http://cdn.gamepix.com/livegames/40214/index.html?token=343350e8f573cbe7c083003d7cc37609&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-2-html5%2F&noplaypage=true"><h4>Play</h4></a>
+				<p>Cut The Rope 2</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/CutTheRopeTT.jpeg" alt=" " />
+			<div class="mask">
+				<a href="http://cdn.gamepix.com/livegames/40072/index.html?token=031c3a430c43bf5b5eb5df27c94b17b4&sid=30057&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-time-travel%2F&noplaypage=true"><h4>Play</h4></a>
+				<p>Cut The Rope Time Travel</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-w3l view view-eighth">
+			<img src="images/CutTheRopeE.jpg" alt=" " />
+			<div class="mask">
+				<a href="http://cdn.gamepix.com/livegames/40337/index.html?token=9d82a7ff2ae779aa399f722ca4437d63&sid=30057&gpx_country_code=US&utm_source=www.gamepix.com&referer=http%3A%2F%2Fwww.gamepix.com%2Fplay%2Fcut-the-rope-experiments%2F&noplaypage=true"><h4>Play</h4></a>
+				<p>Cut The Rope Expiriments</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng5.jpg" alt=" " />
+			<div class="mask">
+				<a href="single.html"><h4>Click here</h4></a>
+				<p>To learn more about this</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng6.jpg" alt=" " />
+			<div class="mask">
+				<a href="single.html"><h4>Click here</h4></a>
+				<p>To learn more about this</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng7.jpg" alt=" " />
+			<div class="mask">
+				<a href="single.html"><h4>Click here</h4></a>
+				<p>To learn more about this</p>
+			</div>
+		</div>
+		<div class="col-md-3 new-grid-agile view view-eighth">
+			<img src="images/ng8.jpg" alt=" " />
+			<div class="mask">
+				<a href="single.html"><h4>Click here</h4></a>
+				<p>To learn more about this</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //new games-->
 
-					</aside>
 
 
 
-				</div>
-			</footer>
+<!-- footer -->
+<div class="footer">
+		<div class="clearfix"></div>
+		<div class="copyright">
+			<p>&copy; 2017 Nick's Games. All Rights Reserved</a></p>
 		</div>
 	</div>
-	<script src="./HTML5 Games - Play for free online_files/utils.js"></script>
-	<script src="./HTML5 Games - Play for free online_files/app.js"></script>
-	<script type="text/javascript">
-	</script>
-	<div id="fb-root"></div>
+</div>
 
-
-	
+<!-- //footer -->
+</body>
 </html>

@@ -2597,43 +2597,7 @@ color:rgb(2, 24, 136) !important;
 		margin:0 auto;
 		padding: 0 15px;
 	}
-	.w3l_social_icons ul li a{
-		width:35px;
-		height:35px;
-		background:url('../images/img-sprite.png') no-repeat -7px -7px #fff;
-		display: inline-block;
-		border: none;
-	}
-	.w3l_social_icons ul li a.google{
-		background:url('../images/img-sprite.png') no-repeat -55px -7px #fff;
-		width:35px;
-		height:35px;
-	}
-	.w3l_social_icons ul li a.twitter{
-		background:url('../images/img-sprite.png') no-repeat -108px -7px #fff;
-		width:35px;
-		height:35px;
-	}
-	.w3l_social_icons ul li a.facebook{
-		background:url('../images/img-sprite.png') no-repeat -159px -7px #fff;
-		width:35px;
-		height:35px;
-	}
-	.w3l_social_icons  ul li a:hover {
-		background:url('../images/img-sprite.png') no-repeat -7px -50px;
-	}
-	.w3l_social_icons ul li a.google:hover{
-		background:url('../images/img-sprite.png') no-repeat -55px -50px;
-	}
-	.w3l_social_icons ul li a.twitter:hover{
-		background:url('../images/img-sprite.png') no-repeat -108px -50px;
-	}
-	.w3l_social_icons ul li a.facebook:hover{
-		background:url('../images/img-sprite.png') no-repeat -159px -50px;
-	}
-	.view-second .w3l_social_icons1 {
-		padding-bottom: 1.1em;
-	}
+
 	.view-second p {
 		margin: 1.3em 0 0;
 		line-height: 27px;
